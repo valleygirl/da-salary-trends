@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+  <head>
+    <title>DA_Salary_trends</title>
+    <style>
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      .title {
+        color: white;
+        background-color: brown;
+        text-align: center;
+        padding-bottom: 5px;
+        padding-top: 5px;
+      }
+      .menuitem {
+        color: black;
+        background-color: white;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        width: auto;
+        padding-right: 10px;
+        padding-left: 10px;
+      }
+      .padding { padding-bottom: 5px; }
+      body { font: 23px Helvetica, Arial; }
+      input { font: 23px Helvetica, Arial; }
+      button { font: 23px Helvetica, Arial; }
+    </style>
+  </head>
+  <body style="background-color: #CCCCCC">
+    <div class=title>Salary Trends</div>
+    <div class=padding></div>
+    <div class=menuitem>
+      <input type="text" id="jobtitle" placeholder="Job Tile" style="width: 100%">
+    </div>
+    <div class=padding></div>
+    <div class=menuitem>
+      <input type="text" id="state" placeholder="State" style="width: 100%">  
+    </div>
+    <div class=padding></div>
+    <div class=menuitem>
+      <input type="text" id="city" placeholder="City" style="width: 100%">    
+    </div>
+    <div class=padding></div>
+    <div class=menuitem>
+      <input type="text" id="company" placeholder="Company" style="width: 100%">    
+    </div>
+    <div class=padding></div>
+    <div class=menuitem>
+      <input type="text" id="state" placeholder="Salary Range" style="width: 100%">  
+    </div>
+    <div class=padding></div>
+    <center>
+      <button id="search" onclick="window.location='/searchresult'">Search</button>
+    </center>
+  </body>
+</html>

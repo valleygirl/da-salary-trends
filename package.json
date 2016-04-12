@@ -1,0 +1,8 @@
+{
+  "name": "da-salary-trends",
+  "version": "0.0.1",
+  "description": "data analytics salary trends project",
+  "dependencies": {
+    "express": "^4.10.2"
+  }
+}
